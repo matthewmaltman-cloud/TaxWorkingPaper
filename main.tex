@@ -18,11 +18,11 @@
 
 \hypersetup{colorlinks=true, linkcolor=NavyBlue, citecolor=NavyBlue, urlcolor=NavyBlue}
 
-\onehalfspacing
+\onehalfspacingI
 
 %  --  Title  -- 
 \title{\textbf{Heterogeneity in the Australian Tax System} \\ \bigskip \large Extended Abstract}
-\author{Greg Kaplan\thanks{e61 Institute and University of Chicago.} \and Matthew Maltman\thanks{e61 Institute / University of Chicago.} \and Matt Nolan\thanks{e61 Institute.}}
+\author{Greg Kaplan\thanks{e61 Institute and University of Chicago.} \and Matthew Maltman\thanks{e61 Institute} \and Matt Nolan\thanks{e61 Institute.}}
 \date{May 2026}
 
 \begin{document}
@@ -45,9 +45,9 @@ In this paper, we investigate how the tax system treats individuals \emph{over t
 
 We therefore characterise heterogeneity in the Australian tax system along two dimensions: \emph{within-year} differences arising from how income is earned and taxed at a point in time, and \emph{over-time} differences arising from the interaction of income volatility with progressive annual assessment. Both are important, and both have distinct implications for equity and efficiency.
 
-That income volatility generates higher tax under progressive assessment has been understood theoretically since \citet{Vickrey1939}, but its empirical magnitude -- and the channels through which it operates -- remain poorly characterised for entire populations. At the same time, the progressive schedule provides genuine value as partial insurance against income risk \citep{HeathcoteStorViol2017}: when income falls, the tax rate falls too, cushioning the blow to after-tax income. The question is whether the insurance benefits justify the costs -- both the direct cost of higher lifetime tax rates for volatile earners, and the indirect cost of distortions to income timing and labour supply.
+That income volatility generates higher tax under progressive assessment has been understood theoretically since \citet{Vickrey1939}, but its empirical magnitude -- and the channels through which it operates -- remain poorly characterised for entire populations. At the same time, the progressive schedule provides genuine value as partial insurance against income risk \citep{HeathcoteStorViol2017,Choetal2024}: when income falls, the tax rate falls too, cushioning the blow to after-tax income. The question is whether the insurance benefits justify the costs -- both the direct cost of higher lifetime tax rates for volatile earners, and the indirect cost of distortions to income timing and labour supply.
 
-We bring population-level administrative data to bear on these questions for the first time. Using PLIDA, we follow the universe of Australian taxpayers over more than two decades, characterising heterogeneity in effective tax rates both within years and across time.
+We bring population-level administrative data to bear on these questions. Using PLIDA, we follow the universe of Australian taxpayers over more than two decades, characterising heterogeneity in effective tax rates both within years and across time.
 
 Our key findings are as follows. First, the (prior) capital gains discount does generate significant differences in long-run effective tax rates between high-income individuals, confirming the mechanism that has received the most policy attention. However, we find that there are also \emph{significant} differences in tax rates between relatively lower-income individuals -- differences that have received far less attention. These differences at the bottom of the distribution are driven almost entirely by income volatility interacting with the progressive schedule and, in particular, with the tax-free threshold. We quantify the over-time dimension by comparing observed tax outcomes to an ``income-averaged benchmark'' -- allocating each individual's total income evenly across years and applying prevailing rates -- to identify where volatility translates into systematically higher tax treatment relative to a smooth-income counterfactual.
 
@@ -69,11 +69,15 @@ Understanding the sources of tax heterogeneity matters for several reasons:
 
 Our paper connects to several strands of the literature.
 
-\paragraph{Progressivity as insurance.} \citet{HeathcoteStorViol2014} develop a framework with partial insurance against wage shocks, finding that approximately 39 percent of permanent shocks pass through to consumption. \citet{HeathcoteStorViol2017} characterise optimal progressivity analytically, showing the trade-off between insurance benefits and distortions to labour supply and skill investment. \citet{KniesnerZiliak2002} provide direct evidence that the US tax reforms of the 1980s -- which flattened rate schedules -- reduced the tax system's ability to stabilise household consumption by approximately 50 percent.
+\paragraph{Progressivity as insurance.} \citet{HeathcoteStorViol2014} develop a framework with partial insurance against wage shocks, finding that approximately 39 percent of permanent shocks pass through to consumption. \citet{HeathcoteStorViol2017} characterise optimal progressivity analytically, showing the trade-off between insurance benefits and distortions to labour supply and skill investment. \citet{Choetal2024} use a BPP approach to estimate the consumption insurance provided by the progressive income tax scale using Australian survey data (the HILDA survey).
 
-\paragraph{Income volatility over the lifecycle.} \citet{GuvenOzkanSong2014} use US Social Security Administration data to show that earnings risk is characterised by greater left-skewness in recessions -- large drops become more likely while large gains become less so. \citet{GuvenEtal2021} document that earnings changes are highly leptokurtic and negatively skewed, with both features varying substantially by age and prior earnings. \citet{MeghirPistaferri2004} decompose income dynamics into permanent and transitory components with ARCH effects, finding substantial heterogeneity in variance. \citet{StorTelmerYaron2004} show that inequality in both income and consumption increases with age, consistent with highly persistent shocks accumulating over the lifecycle.
+\paragraph{Income volatility over the lifecycle.} The literature highlights that there is significant variability in income. \citet{MeghirPistaferri2004} decompose income dynamics into permanent and transitory components with ARCH effects, finding substantial heterogeneity in variance. However, such income variability is also a characteristic of labour earnings. \citet{GuvenOzkanSong2014} use US Social Security Administration data to show that earnings risk is characterised by greater left-skewness in recessions -- large drops become more likely while large gains become less so. \citet{GuvenEtal2021} document that earnings changes are highly leptokurtic and negatively skewed, with both features varying substantially by age and prior earnings. \citet{Tinetal2025} illustrate similar earnings dynamics in Australia. \citet{StorTelmerYaron2004} show that inequality in both income and consumption increases with age, consistent with highly persistent income shocks accumulating over the lifecycle.
 
 \paragraph{Tax assessment periods and horizontal equity.} \citet{Vickrey1939, Vickrey1947} first identified the horizontal-equity problem created by annual assessment of a progressive tax and proposed cumulative lifetime averaging as the solution. \citet{Weinzierl2011} shows that age-dependent taxes -- a step toward lifecycle assessment -- capture over 60 percent of the welfare gains from fully dynamic optimal taxation. \citet{FarhiWerning2013} derive optimal dynamic taxes showing that the tax system should provide insurance against persistent shocks while accounting for information revealed over the lifecycle. %\citet{Kaplow2000} challenges whether horizontal equity has independent normative force, arguing it reduces to welfarist concerns -- but even under this view, understanding the sources of differential treatment is essential for evaluating the welfare properties of the system.
+
+\bigskip
+
+By characterising the types of income shocks that occur, and how lifecycle -- rather than annual -- assessment would change tax paid we are able to estimate the insurance value of such tax. However, it also generates a tension between vertical and horizontal equity through time -- where more redistributive lifetime taxes may impose greater horizontal inequity in the tax paid by similar individuals. This highlights the different normative arguments that would argue for or against the application of annual progressive scales.
 
 % =====================================================================
 
@@ -120,14 +124,14 @@ Across individuals with similar total income over 2012--2022, the dispersion in 
 
 \begin{figure}[ht]
 \centering
-\begin{subfigure}[t]{0.46\textwidth}
+\begin{subfigure}[t]{0.40\textwidth}
 \centering
 \includegraphics[width=\textwidth]{figures/dist_taxfull_median.pdf}
 \caption{Distribution of effective tax rates. Line: median; shaded: p10--p90.}
 \label{fig:dist_level}
 \end{subfigure}
 \hfill
-\begin{subfigure}[t]{0.46\textwidth}
+\begin{subfigure}[t]{0.40\textwidth}
 \centering
 \includegraphics[width=\textwidth]{figures/dist_taxfull_p90p10.pdf}
 \caption{Dispersion of effective tax rates (p90--p10 range).}
@@ -137,6 +141,7 @@ Across individuals with similar total income over 2012--2022, the dispersion in 
 \label{fig:dist_panel}
 \end{figure}
 
+\newpage 
 \subsection{Income volatility is the dominant driver}
 
 A Shapley-value decomposition of the variance of long-run ATRs into components attributable to (i) income volatility and timing, (ii) Medicare levy interactions, (iii) tax offsets, (iv) select deductions, and (v) capital gains treatment reveals that income volatility accounts for essentially all of the variance at the bottom of the distribution (over 100 percent, offset by negative contributions from other factors) and remains the dominant factor through the 70th percentile. Only at the top of the distribution do capital gains treatment and deductions become quantitatively important (Figure~\ref{fig:decomp}).
@@ -149,6 +154,65 @@ A Shapley-value decomposition of the variance of long-run ATRs into components a
 \end{figure}
 
 The mechanism is intuitive. For individuals earning near the tax-free threshold (\$18,200), modest year-to-year variation pushes them above the threshold in some years and below it in others. The convexity of the tax schedule means that the additional tax paid in high-income years exceeds the tax saved in low-income years, generating a systematic upward bias in average tax rates for volatile earners.
+
+\newpage
+\section{Income trajectories and horizontal equity}
+
+Interpreting the income-averaging results requires a clear understanding of what is being averaged. Averaging is not a neutral operation. It replaces an observed path of annual income with a counterfactual path, and that counterfactual embodies a judgement about which forms of variation should matter for tax purposes. In a growing economy there are at least four distinct objects that can be averaged away: inflation, aggregate real income growth, predictable lifecycle changes in earnings, and idiosyncratic risk or timing. These objects have different normative interpretations. Treating all of them as ``volatility''
+would overstate the extent to which the tax gap reflects risk; treating none of them as volatility would miss the horizontal-equity problem created by annual assessment.
+
+Figure~\ref{fig:averaging-concepts} illustrates the issue with an example.\footnote{We construct a stylised income path with average real income of \$100,000 in 2025 prices. The lifecycle-preserving path is shaped to look more like an empirical wage profile: earnings rise steeply early in the working life and then flatten. The actual path adds mostly small mean-zero residual variation around that lifecycle profile, with a few larger events that can be read as job loss, care responsibilities, or a realised capital gain. The actual and lifecycle-preserving paths therefore have the same lifetime income. We then apply the 1999--00 resident tax scale to each path in Figure~\ref{fig:averaging-concepts}, with thresholds indexed by average economy-wide nominal income growth. This is the tax-system analogue of adjusting for bracket creep: thresholds rise with both prices and average real incomes, so a person whose income remains constant relative to the average taxpayer is not mechanically pushed into higher tax brackets. The benchmark tax rate is therefore the tax rate on the path that is constant relative to average income.} The same observed income path can be compared with several smooth alternatives. A constant-real-income benchmark removes aggregate growth, lifecycle shape, and shocks. A benchmark that is constant relative to average income keeps economy-wide income growth but removes person-specific lifecycle shape and shocks. A lifecycle-preserving benchmark keeps a predictable age or career profile and removes only deviations around that profile. Each comparison answers a different question.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.94\textwidth]{figures/income_growth_section_averaging_concepts.pdf}
+  \caption{Averaging is a judgement about which variation to ignore.}
+  \label{fig:averaging-concepts}
+\end{figure}
+
+This is where horizontal equity becomes difficult. If horizontal equity means equal tax for equal lifetime real resources, then a constant-real-income benchmark is the natural comparison. Under that view, predictable career growth and involuntary shocks both generate unequal tax treatment because both cause the same lifetime income to arrive in different years. If horizontal equity instead means equal tax for equal lifetime position in the income distribution, then the benchmark should grow with average income. Under that view, a person whose earnings grow with the economy is not becoming richer in the relevant sense. If horizontal equity means equal tax for equal lifecycle opportunity, then the benchmark should preserve expected age-earnings profiles and average only the unpredictable component. Under that view, a young worker's rising earnings are not the same object as an unemployment shock, even if both create convexity costs under annual assessment.
+
+
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.94\textwidth]{figures/income_growth_section_averaging_decomposition.pdf}
+  \caption{The tax-rate gap depends on what the averaging benchmark can observe.}
+  \label{fig:averaging-decomposition}
+\end{figure}
+\newpage
+Figure~\ref{fig:averaging-decomposition} decomposes the tax-rate difference in this example. Here the tax scale rises with average economy-wide income growth each year, thereby adjusting for bracket creep. We can then compare the average tax rate paid over thirty years by a person, depending on how their earnings profile is allocated across years.
+
+The current annual taxation of the lifecycle income path (assuming tax thresholds that adjust for bracket creep) has a lifetime average tax rate of 27.39 percent. If instead the individuals income was \emph{smoothed out} such that they remained at the same percentile in each year (constant-relative-to-average-income benchmark) the tax rate would be a much lower 25.84 percent -- 1.45 percentage points lower.
+
+We can decompose this difference into the contribution of income volatility (where income varied from its lifecycle path) and the contribution of lifecycle effects. In the decomposition, 0.48 percentage points comes from the lifecycle-preserving path: the person has a predictable age or career profile rather than the economy-wide average-growth profile. The remaining 1.08 percentage points comes from residual volatility: the difference between the actual path and the lifecycle-preserving path. This last component is closest to the income-risk or income-timing object that motivates concern about annual assessment.
+
+Real tax systems are unlikely to be able to smooth individuals position in the income distribution, or observe their posotion on their lifecycle earnings trajectory. As a result, such a system will either average income in nominal terms (splitting dollar amounts through time) or real terms (allocating real income through time). In this example, taxing a constant-nominal-income over time produces a lifetime average tax rate of 26.97 percent. Moving to a constant-real-income benchmark lowers the rate by 1.02 percentage points. The gap between this real system and the distributionally neutral allocation is only 0.11 percentage points. 
+
+This matters for interpreting the PLIDA results. The benchmark used in the empirical figures deflates income by consumer prices, averages it over time, and then re-inflates it to each year. That is closest to a constant real income benchmark: it asks whether a taxpayer paid more than someone with the same real income -- even if that income was earned at a different point in time. It is not a pure risk benchmark, nor is it a benchmark that accounts for economic growth increasing everyones position in the income distribution. 
+
+It removes predictable lifecycle growth as well as shocks unless we separately condition on age, sex, family structure,
+occupation, or other predictors of normal earnings profiles. But this is precisely the constraint: an administrable averaging rule can use aggregate information such as CPI or average income growth, but it generally cannot know the person's expected lifecycle path. The lifecycle-preserving path in Figure~\ref{fig:averaging-decomposition} is therefore not a proposed operational benchmark. It is an accounting device that shows how much of the measured tax gap would disappear if the benchmark could distinguish predictable lifecycle earnings from residual volatility.
+
+The following empirical task is to separate these components, so that we can ask which part of tax heterogeneity is associated with risk, which part is a penalty on predictable lifecycle patterns, and which part reflects policy (the way changing tax scales map income growth into tax rates).
+
+
+% =====================================================================
+\section{Measuring Sources of Income Volatility and insurance [To be completed]}
+
+The aggregate patterns documented above reflect the combination of several distinct mechanisms generating year-to-year income variation. Understanding these mechanisms matters because they differ in whether the resulting tax heterogeneity represents (i) an unintended cost of annual assessment, (ii) a valuable insurance function, or (iii) an efficient signal for behavioural adjustment.
+
+\begin{enumerate}[label=(\alph*)]
+\item \textbf{Lifecycle progression.} Earnings rise steeply in the 20s and 30s as workers accumulate human capital, plateau in the 40s and 50s, and decline toward retirement. This deterministic component moves individuals through progressive tax brackets in a predictable pattern. It is not ``risk'' in any meaningful sense -- it is a foreseeable trajectory -- yet it generates differential tax treatment between individuals at different lifecycle stages with the same long-run income.
+
+\item \textbf{Voluntary labour-force transitions.} Childbearing, parental leave, further study, career breaks, and transitions between full-time and part-time work generate large income swings. These are partially within the individual's control and may reflect deliberate lifecycle optimisation.
+
+\item \textbf{Involuntary shocks.} Job loss, firm closure, illness, disability, and relationship breakdown generate income drops outside the individual's control. The progressive schedule provides partial insurance against these shocks -- this is where the insurance interpretation of progressivity is most compelling. But the cost is that individuals who experience more shocks pay more lifetime tax than otherwise-identical individuals.
+
+\item \textbf{Income composition and timing.} Capital gains, business income, and other lumpy income sources are inherently variable -- an investment is made given an expected risky rate of return, which ends up being taxed at higher rates due to the progressive tax system. Furthermore, the annual assessment of these sources creates incentives for strategic timing -- particularly around retirement, when individuals can realise accumulated gains in low-income years. The (prior) CGT discount partially addressed this for capital income, but no analogous mechanism exists for lumpy wage or business income.
+\end{enumerate}
+
+The tax-free threshold plays a disproportionate role in generating tax heterogeneity at the bottom of the distribution. Because the threshold creates a kink in the tax schedule at \$18,200, individuals with average incomes near this level experience large swings in their effective tax rate from year to year. A secondary earner who moves in and out of the labour force -- earning \$40,000 in working years and zero in non-working years -- pays substantially more lifetime tax than an identical individual earning \$20,000 in every year, despite identical total lifetime earnings.
 
 \subsection{Volatility raises tax rates relative to a smooth-income benchmark}
 
@@ -213,145 +277,25 @@ A symmetric effect appears at the end of the lifecycle: workers approaching reti
 
 A regression of ATR reduction on demographics confirms this pattern (Appendix Table~\ref{tab:regression}). The largest gains accrue to second earners, unpartnered individuals, and those at either end of the working-age distribution. Women benefit more than men, and the interaction between partnering status and children is quantitatively important.
 
-%%% A ChatGPT section to help thinking - review before sharing
-\section{Income trajectories and horizontal equity}
+\newpage
+\subsection{Volatility can be separated into clear types}
 
-The income-averaging exercise above is useful only if we are clear about what is being
-averaged. Averaging is not a neutral operation. It replaces an observed path of annual
-income with a counterfactual path, and that counterfactual embodies a judgement about
-which forms of variation should matter for tax purposes. In a growing economy there are
-at least four distinct objects that can be averaged away: inflation, aggregate real income
-growth, predictable lifecycle changes in earnings, and idiosyncratic risk or timing. These
-objects have different normative interpretations. Treating all of them as ``volatility''
-would overstate the extent to which the tax gap reflects risk; treating none of them as
-volatility would miss the horizontal-equity problem created by annual assessment.
+[TO BE COMPLETED]
 
-Figure~\ref{fig:averaging-concepts} illustrates the issue. The same observed income path
-can be compared with several smooth alternatives. A constant-real-income benchmark
-removes aggregate growth, lifecycle shape, and shocks. A benchmark that is constant
-relative to average income keeps economy-wide income growth but removes person-specific
-lifecycle shape and shocks. A lifecycle-preserving benchmark keeps a predictable age or
-career profile and removes only deviations around that profile. Each comparison answers
-a different question.
+\subsection{Distributions under alternative forms of averagine}
 
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[width=0.94\textwidth]{figures/income_growth_section_averaging_concepts.pdf}
-  \caption{Averaging is a judgement about which variation to ignore.}
-  \label{fig:averaging-concepts}
-\end{figure}
+[TO BE COMPLETED]
 
-This is where horizontal equity becomes difficult. If horizontal equity means equal tax
-for equal lifetime real resources, then a constant-real-income benchmark is the natural
-comparison. Under that view, predictable career growth and involuntary shocks both
-generate unequal tax treatment because both cause the same lifetime income to arrive in
-different years. If horizontal equity instead means equal tax for equal lifetime position
-in the income distribution, then the benchmark should grow with average income. Under
-that view, a person whose earnings grow with the economy is not becoming richer in the
-relevant sense. If horizontal equity means equal tax for equal lifecycle opportunity, then
-the benchmark should preserve expected age-earnings profiles and average only the
-unpredictable component. Under that view, a young worker's rising earnings are not the
-same object as an unemployment shock, even if both create convexity costs under annual
-assessment.
+\subsection{The trade-off between lifecycle vertical and horizontal equity}
 
-To make this concrete, we construct a stylised income path with average real income of
-\$100,000 in 2025 prices. The lifecycle-preserving path is shaped to look more like an
-empirical wage profile: earnings rise steeply early in the working life and then flatten.
-The actual path adds mostly small mean-zero residual variation around that lifecycle
-profile, with a few larger events that can be read as job loss, care responsibilities, or
-a realised capital gain. The actual and lifecycle-preserving paths therefore have the
-same lifetime income. We then apply the
-1999--00 resident tax scale to each path in Figure~\ref{fig:averaging-concepts}, with
-thresholds indexed by average economy-wide nominal income growth. This is the tax-system
-analogue of adjusting for bracket creep: thresholds rise with both prices and average
-real incomes, so a person whose income remains constant relative to the average taxpayer
-is not mechanically pushed into higher tax brackets. The benchmark tax rate is therefore
-the tax rate on the path that is constant relative to average income.
-
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[width=0.94\textwidth]{figures/income_growth_section_averaging_decomposition.pdf}
-  \caption{The tax-rate gap depends on what the averaging benchmark can observe.}
-  \label{fig:averaging-decomposition}
-\end{figure}
-
-Figure~\ref{fig:averaging-decomposition} decomposes the tax-rate difference in this
-example. A constant-nominal-income benchmark produces a lifetime average tax rate of
-26.97 percent. Moving to a constant-real-income benchmark lowers the rate by 1.02
-percentage points, and moving from constant real income to constant relative income
-lowers it by a further 0.11 percentage points. These first two steps are aggregate
-adjustments: they can be implemented using price growth and average income growth.
-The constant-relative-to-average-income benchmark has a lifetime average tax rate of
-25.84 percent.
-
-The actual path has a lifetime average tax rate of 27.39 percent, 1.55 percentage points
-above the constant-relative benchmark. In the decomposition, 0.48 percentage points comes
-from the lifecycle-preserving path: the person has a predictable age or career profile
-rather than the economy-wide average-growth profile. The remaining 1.08 percentage
-points comes from residual volatility: the difference between the actual path and the
-lifecycle-preserving path. This last component is closest to the income-risk or
-income-timing object that motivates concern about annual assessment.
-
-This matters for interpreting the PLIDA results. The benchmark used in the empirical
-figures deflates income by consumer prices, averages it over time, and then
-re-inflates it to each year. That is closest to a constant real income benchmark: it asks
-whether a taxpayer paid more than someone with the same real income -- even if that income was earned at a different point in time. It is not a pure risk benchmark, nor is it a benchmark that accounts for economic growth increasing everyones position in the income distribution. 
-
-[Up to here]
-
-It removes predictable lifecycle
-growth as well as shocks unless we separately condition on age, sex, family structure,
-occupation, or other predictors of normal earnings profiles. But this is precisely the
-constraint: an administrable averaging rule can use aggregate information such as CPI or
-average income growth, but it generally cannot know the person's expected lifecycle path.
-The lifecycle-preserving path in Figure~\ref{fig:averaging-decomposition} is therefore
-not a proposed operational benchmark. It is an accounting device that shows how much of
-the measured tax gap would disappear if the benchmark could distinguish predictable
-lifecycle earnings from residual volatility.
-
-The framing for the rest of the paper is therefore as follows. First, the raw
-income-averaging gap measures how far actual annual assessment departs from a chosen
-smooth counterfactual. Second, that gap is not automatically a measure of risk: it also
-contains lifecycle structure and the effect of tax-system indexation. Third, the normative
-interpretation depends on the benchmark. A real-income benchmark emphasises equal
-lifetime resources; an average-income benchmark emphasises equal relative position; a
-lifecycle benchmark isolates shocks around predictable age-earnings paths. The empirical
-task is to separate these components, so that we can ask which part of tax heterogeneity
-is compensation for risk, which part is a penalty on predictable lifecycle patterns, and
-which part reflects the way changing tax scales map income growth into tax rates.
-
-
-
-
-
-
-
-
-
-
-% =====================================================================
-\section{Measuring Sources of Income Volatility [To be completed]}
-
-The aggregate patterns documented above reflect the combination of several distinct mechanisms generating year-to-year income variation. Understanding these mechanisms matters because they differ in whether the resulting tax heterogeneity represents (i) an unintended cost of annual assessment, (ii) a valuable insurance function, or (iii) an efficient signal for behavioural adjustment.
-
-\begin{enumerate}[label=(\alph*)]
-\item \textbf{Lifecycle progression.} Earnings rise steeply in the 20s and 30s as workers accumulate human capital, plateau in the 40s and 50s, and decline toward retirement. This deterministic component moves individuals through progressive tax brackets in a predictable pattern. It is not ``risk'' in any meaningful sense -- it is a foreseeable trajectory -- yet it generates differential tax treatment between individuals at different lifecycle stages with the same long-run income.
-
-\item \textbf{Voluntary labour-force transitions.} Childbearing, parental leave, further study, career breaks, and transitions between full-time and part-time work generate large income swings. These are partially within the individual's control and may reflect deliberate lifecycle optimisation.
-
-\item \textbf{Involuntary shocks.} Job loss, firm closure, illness, disability, and relationship breakdown generate income drops outside the individual's control. The progressive schedule provides partial insurance against these shocks -- this is where the insurance interpretation of progressivity is most compelling. But the cost is that individuals who experience more shocks pay more lifetime tax than otherwise-identical individuals.
-
-\item \textbf{Income composition and timing.} Capital gains, business income, and other lumpy income sources are inherently variable -- an investment is made given an expected risky rate of return, which ends up being taxed at higher rates due to the progressive tax system. Furthermore, the annual assessment of these sources creates incentives for strategic timing -- particularly around retirement, when individuals can realise accumulated gains in low-income years. The (prior) CGT discount partially addressed this for capital income, but no analogous mechanism exists for lumpy wage or business income.
-\end{enumerate}
-
-The tax-free threshold plays a disproportionate role in generating tax heterogeneity at the bottom of the distribution. Because the threshold creates a kink in the tax schedule at \$18,200, individuals with average incomes near this level experience large swings in their effective tax rate from year to year. A secondary earner who moves in and out of the labour force -- earning \$40,000 in working years and zero in non-working years -- pays substantially more lifetime tax than an identical individual earning \$20,000 in every year, despite identical total lifetime earnings.
+[TO BE COMPLETED]
 
 % =====================================================================
 \section{Discussion and Next Steps}
 
 The findings documented above raise several questions that we intend to pursue in subsequent work. First, we aim to decompose individual income volatility into its component sources -- lifecycle progression, voluntary transitions, involuntary shocks, and income composition -- and quantify each channel's contribution to observed tax heterogeneity. This will allow us to distinguish the share of heterogeneity that reflects genuine insurance provision from the share that represents an unintended penalty on foreseeable lifecycle patterns.
 
-Second, we will investigate a richer set of definitions of horizontal and vertical equity based on additional counterfactuals. This will allow us to decompose the results \emph{over time} to access the relative role of \emph{income growth} and \emph{income variability} -- along side the related response of the tax system to inflation and income growth. The results in this abstract view horizontal inequity as differential tax rates for individuals with the same real income irrespective of the time period. However, in a world with income growth this would imply rising average tax rates. Instead considering individuals position in the income distribution would allow us to more deeply consider intra-personal and intergenerational distributional issues.
+Second, we will investigate a richer set of definitions of horizontal and vertical equity based on additional counterfactuals. This will allow us to decompose the results \emph{over time} to access the relative role of \emph{income growth} and \emph{income variability} -- along side the related response of the tax system to inflation and income growth. The results in this abstract view horizontal inequity as differential tax rates for individuals with the same real income irrespective of the time period. However, in a world with income growth this would imply rising average tax rates. Instead considering individuals position in the income distribution would allow us to more deeply consider intra-personal and inter-generational distributional issues.
 
 Finally, we plan to investigate the behavioural dimension: whether individuals appear to respond to the volatility penalty by timing income strategically, and whether such responses are concentrated among those with the greatest scope to do so (the self-employed, those with investment income, those approaching retirement). Understanding the extent of income-timing behaviour is important both for assessing the efficiency costs of the current system and for predicting the revenue consequences of alternative assessment designs.
 
